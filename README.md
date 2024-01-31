@@ -2,7 +2,7 @@ Author: @Jaz-3-0
 
 # X-dapp
 
-This is the Twitter(X) dapp version
+This is the X(formerly twitter) dapp version.
 
 # About
 
