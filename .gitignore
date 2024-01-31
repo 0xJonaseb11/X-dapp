@@ -1,0 +1,9 @@
+# compiler files
+cache
+out
+build
+
+# dependencies
+node_modules
+
+coverage
