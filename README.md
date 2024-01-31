@@ -1,6 +1,6 @@
 Author: @Jaz-3-0
 
-# X dapp
+# X-dapp
 
 This is the Twitter(X) dapp version
 
