@@ -57,5 +57,19 @@ contract TwitterDapp is ERC721 ("TwitterDApp", "TDAPP"){
         tokenId = tokenId + 1;
     }
 
+    // add comment
+    function addComment(uint256 tweetIndex, string memory prefComments) public {
+        tweets[tweetIndex].comments.push(prefComments);
+    }
+
+    // upvote
+    function upvote(uint tweetIndex) public {
+        tweets[tweetIndex].upvotes += 1;
+    }
+
+    // get all the tweets
+    function getAllTweets() public view returns(tweet[] memory) {
+        return tweets;
+    }
 
 }
