@@ -6,14 +6,13 @@ This is the X(formerly twitter) dapp version.
 
 # About
 
-why are we building it? Recently, there has been a constant debate regarding data privacy, ownership and advertising revenues of social media platforms. It is indeed true that the top ten tech companies in the world control most of the digital data globally. This means that we don’t have rights and control to our privacy, data and the decisions we make in our daily lives.
+Why are we building it? Recently, there has been a constant debate regarding data privacy, ownership and advertising revenues of social media platforms. It is indeed true that the top ten tech companies in the world control most of the digital data globally. This means that we don’t have rights and control to our privacy, data and the decisions we make in our daily lives.
 
 It is now much more important than ever that we use decentralized internet (web3) as a tool to create a space where users can actually own and control their data rather than being sold by giants for advertising revenue. It is for this very reason I felt like while you are learning about Solidity and the web3 ecosystem, why don’t I attempt to create a decentralized version of Twitter (a Twitter DApp 🐦).
 
-## What are we anabling??
+## What are we enabling??
 
-. The app will have the following functionality;
-
+- The app will have the following functionality;
 - Sign-in via Twitter using Web3Auth
 - Write a tweet as NFT
 - Upvote and Comment on a tweet
