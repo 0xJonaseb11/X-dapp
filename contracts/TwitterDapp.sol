@@ -1,10 +1,10 @@
 // SPDX-License-Identifier: MIT
-pragma solidity >=0.8.0;
+pragma solidity ^0.8.20;
 
 
-import { ERC721 } from "openzeppelin/contracts/token/ERC721/ERC721.sol";
-import { Strinfs } from "openzeppelin/contracts/utils/Strings.sol";
-import { Base64 } from "openzeppelin/contracts/utils/Base64.sol";
+import { ERC721 } from "@openzeppelin/contracts/token/ERC721/ERC721.sol";
+import { Strings } from "@openzeppelin/contracts/utils/Strings.sol";
+import { Base64 } from "@openzeppelin/contracts/utils/Base64.sol";
 
 contract TwitterDapp is ERC721 ("TwitterDApp", "TDAPP"){
 
@@ -40,6 +40,21 @@ contract TwitterDapp is ERC721 ("TwitterDApp", "TDAPP"){
                 Base64.encode(dataURI)
             )
         );
+    }
+
+    function writeTweet(string memory prefName, string memory prefdesc) public {
+        _safeMint(msg.sender, tokenId);
+
+        // push tweets
+        tweets.push(tweet({
+            name: prefName,
+            description: prefdesc,
+            upvotes: 0,
+            comments:new string[](0),
+            fromAddress: msg.sender
+        }));
+
+        tokenId = tokenId + 1;
     }
 
 
