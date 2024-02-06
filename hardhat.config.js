@@ -1,4 +1,4 @@
-require('dontenv').config();
+require('dotenv').config();
 
 /** @type import('hardhat/config').HardhatUserConfig */
 module.exports = {
