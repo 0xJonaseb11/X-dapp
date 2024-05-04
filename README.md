@@ -1,10 +1,8 @@
-Author: @Jaz-3-0
-
 # X-dapp
 
 This is the X(formerly twitter) dapp version.
 
-# About
+## About
 
 Why are we building it? Recently, there has been a constant debate regarding data privacy, ownership and advertising revenues of social media platforms. It is indeed true that the top ten tech companies in the world control most of the digital data globally. This means that we don’t have rights and control to our privacy, data and the decisions we make in our daily lives.
 
@@ -37,4 +35,4 @@ Any contribution to this, reach out to this repo at <https://github.com/Jaz-3-0/
 
 --------
 
-@Jaz-3-0
+@Jonaseb11
