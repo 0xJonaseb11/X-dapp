@@ -31,7 +31,7 @@ It is now much more important than ever that we use decentralized internet (web3
 - Using Remix IDE for contract tests.
 
 In case there is any enquiry, Reach out to me at <sebejaz99@gmail.com>
-Any contribution to this, reach out to this repo at <https://github.com/Jaz-3-0/X-dapp.git>
+Any contribution to this, reach out to this repo at <https://github.com/0xJonaseb11/X-dapp.git>
 
 --------
 
