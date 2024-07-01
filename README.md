@@ -35,4 +35,4 @@ Any contribution to this, reach out to this repo at <https://github.com/0xJonase
 
 --------
 
-@Jonaseb11
+@0xJonaseb11
